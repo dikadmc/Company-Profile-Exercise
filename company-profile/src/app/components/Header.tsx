@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -22,7 +23,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">TechInnovate Solutions</span>
-            <img className="h-8 w-auto" src="/logo.png" alt="" />
+            <Image height={32} width={100} src="/logo.png" alt="logo.png" />
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -58,7 +59,7 @@ export default function Header() {
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
                 <span className="sr-only">TechInnovate Solutions</span>
-                <img className="h-8 w-auto" src="/logo.png" alt="" />
+                <Image height={32} width={100} src="/logo.png" alt="" />
               </Link>
               <button
                 type="button"

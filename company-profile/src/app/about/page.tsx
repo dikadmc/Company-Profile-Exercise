@@ -24,7 +24,7 @@ export default function About() {
                 Founded in 2010, TechInnovate Solutions has been at the forefront of technological innovation for over a decade. What started as a small team of passionate developers has grown into a global company serving clients across various industries.
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Our journey has been marked by continuous learning, adaptation, and a commitment to excellence. We've weathered the rapid changes in the tech landscape, always staying one step ahead to provide our clients with cutting-edge solutions.
+                Our journey has been marked by continuous learning, adaptation, and a commitment to excellence. We&apos;ve weathered the rapid changes in the tech landscape, always staying one step ahead to provide our clients with cutting-edge solutions.
               </p>
             </div>
             <div className="aspect-w-3 aspect-h-2 overflow-hidden rounded-lg bg-gray-100">
@@ -47,7 +47,7 @@ export default function About() {
             At TechInnovate Solutions, we foster a culture of innovation, collaboration, and continuous learning. We believe that our strength lies in our diversity and the unique perspectives each team member brings to the table.
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We're committed to creating a work environment where creativity thrives, ideas are valued, and every team member has the opportunity to make a significant impact. Our culture is the driving force behind our success and the high-quality solutions we deliver to our clients.
+            We&apos;re committed to creating a work environment where creativity thrives, ideas are valued, and every team member has the opportunity to make a significant impact. Our culture is the driving force behind our success and the high-quality solutions we deliver to our clients.
           </p>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function About() {
             Our mission is to empower businesses through innovative technology solutions. We strive to be a trusted partner for our clients, helping them navigate the complex digital landscape and achieve their business goals.
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We're committed to delivering excellence in every project we undertake, pushing the boundaries of what's possible, and making a positive impact on the world through technology.
+            We&apos;re committed to delivering excellence in every project we undertake, pushing the boundaries of what&apos;s possible, and making a positive impact on the world through technology.
           </p>
         </div>
       </div>

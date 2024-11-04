@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
           {[
-            { name: 'Facebook', href: '#' },
+            { name: 'Facebook', href: 'https://facebook.com' },
             { name: 'Instagram', href: '#' },
             { name: 'Twitter', href: '#' },
             { name: 'GitHub', href: '#' },
