@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
-  const [testimonials, setTestimonials] = useState([
+  const [testimonials] = useState([
     {
       body: "TechInnovate Solutions transformed our business with their innovative software solutions. Highly recommended!",
       author: {
@@ -31,10 +31,6 @@ export default function Home() {
       },
     },
   ]);
-
-  useEffect(() => {
-    setTestimonials(testimonials);
-  }, []);
 
   return (
     <div className="bg-white">
